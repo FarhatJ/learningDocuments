@@ -1,27 +1,27 @@
-#Setting up a Virtual Environment using Python pip
+#Setting up a Virtual Environment using Python pip on Windows OS
 
 Make sure Python3 is install in your system
 
 Step1: Install pip using python3 
-       >python 3 -m pip install pip
+       >python3 -m pip install pip
 	  
-	   >python3 -m pip --version    #Verify the pip version
+       >python3 -m pip --version    #Verify the pip version
 	  
 Step2: Install virtualenv
        >pip install virtualenv
 		
 Step3: Create the virtual environment
-       >virtualenv <your-virtual-env-name>   #ex> virtualenv myenv
+       >virtualenv <your-virtual-env-name>   # eg. >virtualenv myenv--> folder name myenv will get created    
 	  
 Step4: Activate the virtual environment
-       Linux/macOS --> source myenv/bin/activate
-	   Windows     --> myenv\Scripts\activate
+       Linux/macOS --> $source myenv/bin/activate
+       Windows     --> >myenv\Scripts\activate.bat
 	   
-	   You should see the name of your virtual environment in brackets on your terminal line like this --> (myenv)
-	   
-       Ex: (myenv) C:\Users\..\..\..\projectname\venv\Scripts>  
+       You should see the name of your virtual environment in brackets on your terminal line like this --> (myenv)
+       
+       Eg: (myenv) C:\Users\..\..\..\projectname\venv\Scripts>  
 	   
 Step5: To deactivate the virtual environment and use your original Python environment, simply type ‘deactivate’ at that location --> myenv/Scripts/
-       >deactivate
-
-   
+       >myenv/Scripts/deactivate.bat
+       $source myenv/Scripts/deactivate
+  
